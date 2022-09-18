@@ -7,10 +7,10 @@ function Entry(props){
             <span className="emoji" role="img" aria-label="Tense Biceps">
               {props.emoji}
             </span>
-            <span>{props.dt}</span>
+            <span>{props.name}</span>
           </dt>
           <dd>
-            {props.dd}
+            {props.meaning}
           </dd>
         </div>)
 }
